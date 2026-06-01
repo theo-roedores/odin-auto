@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#header-panel {
+  background-color: #1F2937;
+  flex: 1px 1px 0%;
+  height: 300px;
+
+}
+
+#items-panel {
+  flex: 1px 1px 0%;
+  height: 300px;
+  background-color: white;
+}
+
+#quote-panel {
+  flex: 1px 1px 0%;
+  height: 300px;
+  background-color: #E5E7EB;
+}
+
+#action-panel {
+  flex: 1px 1px 0%;
+  height: 300px;
+  background-color: #3882F6;
+}
+
+#footer-panel {
+  flex: 1px 1px 0%;
+  height: 300px;
+  background-color: #1F2937;
+}
