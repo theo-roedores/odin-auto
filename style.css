@@ -155,11 +155,13 @@ body {
   height: 150px;
   border-width: 0;
   border-radius: 10px;
-  box-shadow: lightgrey 5px 5px 15px;
+  box-shadow: lightgrey 5px 5px 10px;
 }
 
 .review-content {
   text-align: center;
+  color: #1f2937;
+  font-size: 19px;
   margin-top: 15px;
 }
 
@@ -188,8 +190,8 @@ body {
 
 #quote {
   font-size: 36px;
-  color: #1f2937;
   font-weight: 300;
+  color: #1f2937;
 }
 
 #quote-owner {
@@ -207,5 +209,10 @@ body {
 #footer-panel {
   flex: 1 1 5%;
   height: 300px;
+  color: #e5e7eb;
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
