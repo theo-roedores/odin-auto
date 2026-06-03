@@ -121,6 +121,8 @@ body {
 }
 
 #items-header {
+  margin-bottom: 0;
+  margin-top: 50px;
   flex: 1 1 20%;
   font-size: 36px;
   color: #1F2937;
@@ -132,7 +134,6 @@ body {
 }
 
 #items-list {
-  border: cadetblue solid 1px;
   flex: 1 1 100%;
   display: flex;
   justify-content: center;
@@ -146,19 +147,25 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 300px;
-  height: 400px;
-  background-color: blue;
+  height: 300px;
 }
 
 .review-image {
-
+  width: 150px;
+  height: 150px;
+  border-width: 0;
+  border-radius: 10px;
+  box-shadow: lightgrey 5px 5px 15px;
 }
 
 .review-content {
-
+  text-align: center;
+  margin-top: 15px;
 }
 
 .review-stars {
+  text-align: center;
+  margin-top: 5px;
 }
 
 #quote-panel {
