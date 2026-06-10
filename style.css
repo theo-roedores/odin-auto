@@ -92,9 +92,7 @@ body {
 }
 
 #right-panel {
-  border-radius: 10px;
   padding: 0;
-  box-shadow: black 2px 2px 10px 1px;
 }
 
 #header-title ul {
@@ -146,14 +144,15 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .review-image {
+  flex: 1 1 0;
   width: 150px;
   height: 150px;
-  border-width: 0;
+  border: #3882F6 3px solid;
   border-radius: 10px;
   box-shadow: lightgrey 5px 5px 10px;
 }
@@ -202,8 +201,47 @@ body {
 
 #action-panel {
   flex: 1 1 17%;
+  display: flex;
   height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#action-background {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   background-color: #3882F6;
+  width: 850px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#action-button {
+  padding: 5px 35px;
+  font-weight: 900;
+  font-size: 19px;
+  color: #ffffff;
+  border: #ffffff 3px solid;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+#action-text p {
+  margin: 0;
+  padding: 0;
+}
+
+#action-text .big {
+  font-weight: 900;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+#action-text .small {
+  font-weight: 100;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 #footer-panel {
